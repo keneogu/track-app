@@ -44,7 +44,8 @@ const App = () => {
 
   return (
     <div className="app-container">
-      
+      <Navbar />
+      <Routes />
     </div>
   );
 };
