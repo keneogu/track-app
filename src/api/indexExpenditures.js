@@ -1,4 +1,4 @@
-const indexExpenditures = async userId => {
+const indexExpenditures = async (userId) => {
   const url = `http://localhost:4000/expenditures?user_id=${userId}`;
   const config = {
     mode: 'cors',

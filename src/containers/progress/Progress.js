@@ -3,7 +3,7 @@ import Expenditure from '../expenditure/Expenditure';
 import Footer from '../../components/footer/Footer';
 
 const Progress = () => {
-  const { expenditure } = useSelector(state => state);
+  const { expenditure } = useSelector((state) => state);
 
   const { expenditures, summary } = expenditure;
 
@@ -23,7 +23,7 @@ const Progress = () => {
         <div className="history-container">
           <i className="fas fa-history" />
           <h3>History</h3>
-          { expenditures.map(expenditure => (
+          { expenditures.map((expenditure) => (
             <Expenditure key={expenditure.id} expenditure={expenditure} />
           ))}
         </div>

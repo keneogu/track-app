@@ -1,4 +1,4 @@
-const createSession = async user => {
+const createSession = async (user) => {
   const url = `http://localhost:4000/users/${user}`;
   const config = {
     mode: 'cors',

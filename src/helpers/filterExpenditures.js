@@ -1,5 +1,5 @@
 /* eslint-disable camelcase */
-const filterExpenditures = expenditures => {
+const filterExpenditures = (expenditures) => {
   let total = 0;
   let education = 0;
   let grocery = 0;
@@ -12,7 +12,7 @@ const filterExpenditures = expenditures => {
     return false;
   }
 
-  expenditures.map(expenditure => {
+  expenditures.map((expenditure) => {
     const { value, category } = expenditure;
     switch (category) {
       case 'Education':

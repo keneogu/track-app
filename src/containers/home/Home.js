@@ -2,7 +2,7 @@ import { useSelector } from 'react-redux';
 import Footer from '../../components/footer/Footer';
 
 const Home = () => {
-  const { session, expenditure } = useSelector(state => state);
+  const { session, expenditure } = useSelector((state) => state);
 
   const { target } = session;
 

@@ -5,7 +5,7 @@ export const setLoading = () => ({
   type: SET_LOADING,
 });
 
-export const setErrors = target => ({
+export const setErrors = (target) => ({
   type: SET_ERRORS,
   payload: target,
 });

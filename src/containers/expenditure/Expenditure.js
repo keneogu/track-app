@@ -6,7 +6,7 @@ import { setErrors, setLoading } from '../../actions/fetch';
 import updateExpenditures from '../../helpers/updateExpenditures';
 
 const Expenditure = ({ expenditure }) => {
-  const { session } = useSelector(state => state);
+  const { session } = useSelector((state) => state);
   const dispatch = useDispatch();
   const {
     value,
@@ -16,7 +16,7 @@ const Expenditure = ({ expenditure }) => {
     id,
   } = expenditure;
 
-  const handleClick = async id => {
+  const handleClick = async (id) => {
     dispatch(setLoading());
 
     const res = await deleteExpenditures(id);

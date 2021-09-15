@@ -4,7 +4,7 @@ const Error = ({ error }) => {
   if (error.length === 0) return '';
   return (
     <div className="error-container">
-      {error.map(msg => <p key={msg}>{msg.charAt(0).toUpperCase() + msg.slice(1)}</p>)}
+      {error.map((msg) => <p key={msg}>{msg.charAt(0).toUpperCase() + msg.slice(1)}</p>)}
     </div>
   );
 };

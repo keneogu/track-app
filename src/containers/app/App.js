@@ -10,7 +10,7 @@ import createSession from '../../api/createSession';
 import updateExpenditures from '../../helpers/updateExpenditures';
 
 const App = () => {
-  const { session, fetch } = useSelector(state => state);
+  const { session, fetch } = useSelector((state) => state);
   const dispatch = useDispatch();
   const username = window.localStorage.getItem('track');
 

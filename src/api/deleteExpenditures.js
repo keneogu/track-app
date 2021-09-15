@@ -1,4 +1,4 @@
-const deleteExpenditures = async id => {
+const deleteExpenditures = async (id) => {
   const url = `http://localhost:4000/expenditures/${id}`;
   const config = {
     mode: 'cors',

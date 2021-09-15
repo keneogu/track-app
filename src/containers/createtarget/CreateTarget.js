@@ -8,17 +8,17 @@ import './createtarget.css';
 import { setLoading, setErrors } from '../../actions/fetch';
 
 const CreateTarget = () => {
-  const { session, fetch } = useSelector(state => state);
+  const { session, fetch } = useSelector((state) => state);
   const { target, id } = session;
   const dispatch = useDispatch();
 
   const [newTarget, setNewTarget] = useState(0);
 
-  const handleChange = e => {
+  const handleChange = (e) => {
     setNewTarget(e.target.value);
   };
 
-  const handleClick = async key => {
+  const handleClick = async (key) => {
     dispatch(setLoading());
 
     let res = {};

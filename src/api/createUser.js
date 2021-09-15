@@ -1,4 +1,4 @@
-const createExpenditure = async data => {
+const createExpenditure = async (data) => {
   const url = 'http://localhost:4000/users';
   const config = {
     mode: 'cors',

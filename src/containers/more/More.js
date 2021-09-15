@@ -5,8 +5,8 @@ import { setExpenditures } from '../../actions/expenditure';
 import CreateTarget from '../createtarget/CreateTarget';
 
 const More = () => {
-  const { session } = useSelector(state => state);
-  const dispatch = useDispatch(state => state);
+  const { session } = useSelector((state) => state);
+  const dispatch = useDispatch((state) => state);
 
   const handleClick = () => {
     dispatch(setCurrentUser({ user: { id: false, username: false, target: false }, token: false }));

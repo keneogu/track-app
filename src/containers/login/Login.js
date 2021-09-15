@@ -8,16 +8,16 @@ import { setErrors, setLoading } from '../../actions/fetch';
 import updateExpenditures from '../../helpers/updateExpenditures';
 
 const Login = () => {
-  const { fetch } = useSelector(state => state);
+  const { fetch } = useSelector((state) => state);
   const dispatch = useDispatch();
 
   const [username, setUsername] = useState();
 
-  const handleChange = e => {
+  const handleChange = (e) => {
     setUsername(e.target.value);
   };
 
-  const handleClick = async key => {
+  const handleClick = async (key) => {
     dispatch(setLoading());
 
     let res = {};

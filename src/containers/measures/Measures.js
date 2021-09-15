@@ -9,12 +9,12 @@ import updateExpenditures from '../../helpers/updateExpenditures';
 import { setErrors, setLoading } from '../../actions/fetch';
 
 const Measures = () => {
-  const { session, fetch } = useSelector(state => state);
+  const { session, fetch } = useSelector((state) => state);
   const dispatch = useDispatch();
 
   const [state, setState] = useState({});
 
-  const handleChange = e => {
+  const handleChange = (e) => {
     const { name, value } = e.target;
     setState({
       ...state,

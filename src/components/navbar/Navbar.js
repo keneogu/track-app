@@ -1,4 +1,3 @@
-
 const Navbar = () => (
   <div className="navbar">
     <h1>Personal Expenses</h1>

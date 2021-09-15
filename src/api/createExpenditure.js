@@ -1,4 +1,4 @@
-const createExpenditure = async data => {
+const createExpenditure = async (data) => {
   const url = 'http://localhost:4000/expenditures';
   // const url = 'https://enigmatic-everglades-24941.herokuapp.com/expenditures';
   const config = {
