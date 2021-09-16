@@ -7,6 +7,7 @@ import Error from '../../components/error/Error';
 import createExpenditure from '../../api/createExpenditure';
 import updateExpenditures from '../../helpers/updateExpenditures';
 import { setErrors, setLoading } from '../../actions/fetch';
+import './measures.css';
 
 const Measures = () => {
   const { session, fetch } = useSelector((state) => state);

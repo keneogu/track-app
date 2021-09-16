@@ -1,6 +1,7 @@
 import { useSelector } from 'react-redux';
 import Expenditure from '../expenditure/Expenditure';
 import Footer from '../../components/footer/Footer';
+import './progress.css';
 
 const Progress = () => {
   const { expenditure } = useSelector((state) => state);
