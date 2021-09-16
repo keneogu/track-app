@@ -1,4 +1,5 @@
 import Navbar from '../navbar/Navbar';
+import './loading.css';
 
 const Loading = () => (
   <div>
