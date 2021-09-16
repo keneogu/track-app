@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import './error.css';
 
 const Error = ({ error }) => {
   if (error.length === 0) return '';
