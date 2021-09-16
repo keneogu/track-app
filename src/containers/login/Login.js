@@ -6,6 +6,7 @@ import createSession from '../../api/createSession';
 import Error from '../../components/error/Error';
 import { setErrors, setLoading } from '../../actions/fetch';
 import updateExpenditures from '../../helpers/updateExpenditures';
+import './login.css';
 
 const Login = () => {
   const { fetch } = useSelector((state) => state);
