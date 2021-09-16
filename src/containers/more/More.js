@@ -3,6 +3,7 @@ import Footer from '../../components/footer/Footer';
 import { setCurrentUser } from '../../actions/session';
 import { setExpenditures } from '../../actions/expenditure';
 import CreateTarget from '../createtarget/CreateTarget';
+import './more.css';
 
 const More = () => {
   const { session } = useSelector((state) => state);
