@@ -4,6 +4,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import deleteExpenditures from '../../api/deleteExpenditures';
 import { setErrors, setLoading } from '../../actions/fetch';
 import updateExpenditures from '../../helpers/updateExpenditures';
+import './expenditure.css';
 
 const Expenditure = ({ expenditure }) => {
   const { session } = useSelector((state) => state);
