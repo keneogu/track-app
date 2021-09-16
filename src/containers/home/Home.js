@@ -1,5 +1,6 @@
 import { useSelector } from 'react-redux';
 import Footer from '../../components/footer/Footer';
+import './home.css';
 
 const Home = () => {
   const { session, expenditure } = useSelector((state) => state);
