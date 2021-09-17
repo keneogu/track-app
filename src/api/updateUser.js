@@ -1,5 +1,8 @@
+import BASE_URL from '../constant';
+
 const updateUser = async (data, id) => {
-  const url = `http://localhost:4000/users/${id}`;
+  // const url = `http://localhost:4000/users/${id}`;
+  const url = `${BASE_URL}/users/${id}`;
   const config = {
     mode: 'cors',
     method: 'PUT',

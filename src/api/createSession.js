@@ -1,5 +1,8 @@
+import BASE_URL from '../constant';
+
 const createSession = async (user) => {
-  const url = `http://localhost:4000/users/${user}`;
+  // const url = `http://localhost:4000/users/${user}`;
+  const url = `${BASE_URL}/users/${user}`;
   const config = {
     mode: 'cors',
     method: 'GET',
