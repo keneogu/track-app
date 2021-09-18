@@ -15,7 +15,7 @@
 ![screenshot](public/expense.png)
 
 
-#### URL for HTTP requests
+#### Live Demo
 - [Heroku](https://tracking-finance-app.herokuapp.com/)
 
 ## Built With
