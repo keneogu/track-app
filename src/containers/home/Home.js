@@ -18,7 +18,7 @@ const Home = () => {
   } = expenditure.summary;
 
   return (
-    <div>
+    <section>
       <div className="home-container">
         <div className="home-summary">
           <div className="home-summary-container">
@@ -118,7 +118,7 @@ const Home = () => {
         </div>
       </div>
       <Footer />
-    </div>
+    </section>
   );
 };
 

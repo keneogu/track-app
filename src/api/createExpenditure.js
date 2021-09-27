@@ -1,8 +1,8 @@
 import BASE_URL from '../constant';
 
 const createExpenditure = async (data) => {
-  // const url = 'http://localhost:4000/expenditures';
-  const url = `${BASE_URL}/expenditures`;
+  const url = 'http://localhost:4000/expenditures';
+  // const url = `${BASE_URL}/expenditures`;
   const config = {
     mode: 'cors',
     method: 'POST',

@@ -1,8 +1,8 @@
 import BASE_URL from '../constant';
 
 const deleteExpenditures = async (id) => {
-  // const url = `http://localhost:4000/expenditures/${id}`;
-  const url = `${BASE_URL}/expenditures/${id}`;
+  const url = `http://localhost:4000/expenditures/${id}`;
+  // const url = `${BASE_URL}/expenditures/${id}`;
   const config = {
     mode: 'cors',
     method: 'DELETE',
