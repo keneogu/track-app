@@ -16,7 +16,7 @@
 
 
 #### Live Demo
-- [Heroku](https://tracking-finance-app.herokuapp.com/)
+- [Heroku](https://nameless-gorge-08250.herokuapp.com/)
 
 ## Built With
 - [React](https://reactjs.org/)
